@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Esme's Weather App</title>
 </head>
@@ -20,7 +21,7 @@
     <main>
       <div class = "weather-data">
         <div>
-            <h1 class="city" id="display-city">Santa Barbara</h1>
+            <h1 class="city" id="display-city"></h1>
             <p class="city-details">
                 Wednesday 22:50, sunny <br/>
                 Humidity: <strong>98%</strong>, Wind: <strong>4.63km/h</strong>
@@ -29,8 +30,8 @@
 
         <div class="temp-container">
            <div class ="temp-icon">☀️ </div> 
-           <div class="temp-value">70</div>
-           <div class="temp-unit">°F</div>
+           <div class="temp-value" id="temperature"></div>
+           <div class="temp-unit">°C</div>
         </div>
       </div>
     </main>
