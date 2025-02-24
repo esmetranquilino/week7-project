@@ -33,7 +33,7 @@ main {
 .city {
     margin: 0;
     font-size: 38px;
-    line-height: 48px;
+    line-height: 30px;
 
 }
 
@@ -54,8 +54,9 @@ main {
 }
 
 .temp-icon {
-    font-size: 44px;
-    margin-top: 22px;
+    width: 88px;
+    height: 88px;
+    /* margin-top: 22px; */
 }
 .temp-value {
     font-size: 88px;
